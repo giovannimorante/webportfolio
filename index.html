@@ -27,139 +27,128 @@
 
     <title>Bootstrap Components</title>
   </head>
-  <body class="text-center bg-secondary">
+  <body class="text-center">
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top mb-5">
-      <a class="navbar-brand" href="#">Giovanni Morante</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contactme">Contact Me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <section class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Giovanni Morante</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
 
-    <div class="container-fluid text-dark p-3 w-75 bg-white">
-
-
-      <!-- Landing page -->
-
-      <div class="container-fluid">
-
-
-         <div class="container">
-         <div class="row">
-         <div class="col-sm">
-         Hello
-         </div>
-        <div class="col-sm">
-       Annyeong
-       </div>
-       <div class="col-sm">
-       Bonjour
-       </div>
-         </div>
-         </div>
-         
-
-         <div class="row d-inline-flex p-5">
-
-         <div class="col-lg-6 col-md-6 col-sm-6">
-            
-             <a href="www.linkedin.com/in/giovannimorante"><img src="https://image.freepik.com/free-icon/linkedin-logo_318-50643.jpg" class="landing"></a>
-
-         </div>
-
-
-         <div class="col-lg-6 col-md-6 col-sm-6">
-            
-         <a href="https://gitlab.com/giovannimorante">
-         <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-600.png"  class="landing"></a>
-
-
-         </div>
-
-
-
-      </div>
-
-      </div>
-
-      <hr class="hr">
-         
-
-
-      <!-- About Me -->
-
-      <section id="aboutme">
-         
-      <div class="container mb-5">
-         <h2 class="mb-5">About Me</h2>
-        <div class="row">
-          <div class="col-lg-6">
-            <div>
-              <img
-                src="https://media.licdn.com/dms/image/C5103AQFNvyOgglTdYQ/profile-displayphoto-shrink_800_800/0/1516959425107?e=1682553600&v=beta&t=iyGjO9u6iZFvBtC9ngJE3i3Eem1-B2JYgQbZhzGZ_I4"
-                class="mt-5 mt-md-0 rounded-circle img-fluid d-block m-auto pb-3 center"
-                width="250"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class>
-              <hr class="hr hr-color-white" />
-              <h3 class="text-justify-center">Giovanni Morante</h3>
-              <h5 class="text-Justify-center">
-                Chemical Engineer - Chemical Technician - Zuitt Student
-              </h5>
-              <hr class="hr hr-color-white" />
-              <p class="">
-                Registered Chemical Engineer - Chemical Technician trying to
-                shift career to Tech. One of the goal in transitioning to a
-                different career path is to develop tools that can be useful in
-                the world of Chemical Engineering, a tool so useful that it may
-                help resolve issues in Chemical Engineering processes and
-                design.
-              </p>
+    <section class="landing-page">
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <img class="logo" src="images/giovanity.png" />
+              <h3 class="introduction">Hi! I'm Giovanni</h3>
+              <h5 class="sub-introduction">Aspiring Fullstack Developer</h5>
             </div>
           </div>
         </div>
+        <img
+          src="images/gio.jpg"
+          class="img-fluid d-block m-auto center profile-pic mb-5"
+          width="250"
+        />
+      </div>
+    </section>
+
+    <section class="about-me pt-5" id="aboutme">
+      <div class="container-fluid text-dark w-50">
+        <div class>
+          <hr class="hr hr-color-white" />
+          <h3 class="text-justify-center">Giovanni Morante</h3>
+          <h5 class="text-Justify-center">
+            Chemical Engineer - Chemical Technician - Zuitt Student
+          </h5>
+          <hr class="hr hr-color-white" />
+          <p class="">
+            Registered Chemical Engineer - Chemical Technician trying to shift
+            career to Tech. One of the goal in transitioning to a different
+            career path is to develop tools that can be useful in the world of
+            Chemical Engineering, a tool so useful that it may help resolve
+            issues in Chemical Engineering processes and design.
+          </p>
+        </div>
       </div>
 
+      <div class="container-fluid">
+        <div class="row d-inline-flex justify-content-center">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2 class="mt-5">Skills</h2>
+            <hr class="hr hr-color-white" />
+            <p class="skills-image">
+              <img
+                class="lang"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+                alt="HTML"
+              />
+              <img
+                class="lang"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                alt="CSS"
+              />
+              <img
+                class="lang"
+                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                alt="Git"
+              />
+              <img
+                class="lang"
+                src="https://www.pngitem.com/pimgs/m/422-4222962_sublime-text-logo-png-transparent-png.png"
+                alt="Sublime"
+              />
+              <img
+                class="lang"
+                src="https://coralogix.com/wp-content/uploads/2021/06/GitLab-Version-Tags-1000X1000.png"
+                alt="Gitlab"
+              />
+              <img
+                class="lang"
+                src="https://images-ext-2.discordapp.net/external/3NZTiB_wEcr12tHyp3Sq2ZUlgAF9vrPPNPa6d1d-W6g/https/www.webknowledgefree.com/wp-content/uploads/2019/10/bootstrap-5-releases-with-major-changes.jpg"
+                alt="Boostraps"
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Projects -->
 
-      </section>
-
-      <hr class="hr">
-
-      <section id="projects">
-         
-         <!-- Projects -->
-
-      <h2 class="text-center mb-5">Projects</h2>
-
-      <div class="container">
+    <section id="projects">
+      <!-- Projects -->
+      <h2 class="text-center mb-5 pt-5">Projects</h2>
+      <div class="container pb-5">
+        <hr class="hr hr-color-white" />
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-12 col-lg-4 mb-sm-3 mb-md-3">
+          <div class="col-sm-12 col-md-12 col-12 col-lg-4 mb-sm-3 mb-md-3 mb-3">
             <div class="card">
               <img
                 class="card-img-top"
@@ -177,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-12 col-lg-4 mb-sm-3 mb-md-3">
+          <div class="col-sm-12 col-md-12 col-12 col-lg-4 mb-sm-3 mb-md-3 mb-3">
             <div class="card">
               <img
                 class="card-img-top"
@@ -195,7 +184,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-12 col-lg-4 mb-sm-3 mb-md-3">
+          <div class="col-sm-12 col-md-12 col-12 col-lg-4 mb-sm-3 mb-md-3 mb-3">
             <div class="card">
               <img
                 class="card-img-top"
@@ -215,136 +204,68 @@
           </div>
         </div>
       </div>
-       </section>
+    </section>
 
-       <hr class="hr">
+    <!-- Skills -->
 
-
-         <section id="skills">
-         
-         <!-- Skills -->
-
-    <div class="container-fluid">
-      <div class="row d-inline-flex justify-content-center">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <h2 class="mt-5">Skills</h2>
-          <p class="skills-image">
-            <img
-              class="lang"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
-              alt="HTML"
-            />
-            <img
-              class="lang"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-              alt="CSS"
-            />
-            <img
-              class="lang"
-              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-              alt="Git"
-            />
-            <img
-              class="lang"
-              src="https://www.pngitem.com/pimgs/m/422-4222962_sublime-text-logo-png-transparent-png.png"
-              alt="Sublime"
-            />
-            <img
-              class="lang"
-              src="https://coralogix.com/wp-content/uploads/2021/06/GitLab-Version-Tags-1000X1000.png"
-              alt="Gitlab"
-            />
-            <img
-              class="lang"
-              src="https://images-ext-2.discordapp.net/external/3NZTiB_wEcr12tHyp3Sq2ZUlgAF9vrPPNPa6d1d-W6g/https/www.webknowledgefree.com/wp-content/uploads/2019/10/bootstrap-5-releases-with-major-changes.jpg"
-              alt="Boostraps"
-            />
-          </p>
-        </div>
+    <section id="contactme">
+      <div class="container contact-form mb-5 pt-5">
+        <form method="post">
+          <h3 class="mb-5">Send me a Message</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtName"
+                  class="form-control"
+                  placeholder="Name *"
+                  value=""
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtEmail"
+                  class="form-control"
+                  placeholder="Email *"
+                  value=""
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtPhone"
+                  class="form-control"
+                  placeholder="Phone Number *"
+                  value=""
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea
+                  name="txtMsg"
+                  class="form-control"
+                  placeholder="Message *"
+                  style="width: 100%; height: 150px"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <div class="form-group">
+                <input
+                  type="submit"
+                  name="btnSubmit"
+                  class="btn btn-primary text-align-center"
+                  value="Send Message"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
-    </div>
-
-
-      </section>
-
-      <hr class="hr">
-      <section id="contactme">
-         
-         <div class="container contact-form mb-5">
-      <form method="post">
-        <h3 class="mb-5">Send me a Message</h3>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input
-                type="text"
-                name="txtName"
-                class="form-control"
-                placeholder="Name *"
-                value=""
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="text"
-                name="txtEmail"
-                class="form-control"
-                placeholder="Email *"
-                value=""
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="text"
-                name="txtPhone"
-                class="form-control"
-                placeholder="Phone Number *"
-                value=""
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <textarea
-                name="txtMsg"
-                class="form-control"
-                placeholder="Message *"
-                style="width: 100%; height: 150px"
-              ></textarea>
-            </div>
-          </div>
-          <div class="col-12 mt-3">
-            <div class="form-group">
-              <input
-                type="submit"
-                name="btnSubmit"
-                class="btn btn-primary text-align-center"
-                value="Send Message"
-              />
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-
-      </section>
-
-      
-
-    
-
-
-
-
-    </div>
-
-
-     
-
-
-    
-
-    
+    </section>
 
     <!-- Bootstrap JS -->
     <script
