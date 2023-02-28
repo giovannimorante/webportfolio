@@ -33,6 +33,7 @@ body {
 
 .about {
 	margin-top: 50px;
+	position: absolute;
 }
 
 .sub-introduction {
@@ -48,7 +49,7 @@ body {
 }
 
 .about-me {
-	margin-top: 100px;
+	margin-top: 300px;
 }
 
 #projects {
@@ -57,7 +58,7 @@ body {
 
 .profile-pic {
 	position: absolute;
-	top: 750px;
+	top:750px;
 	bottom: -120px;
   left: 0;
   right: 0;
