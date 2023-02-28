@@ -31,10 +31,6 @@ body {
 }
 
 
-.about {
-	margin-top: 50px;
-	position: absolute;
-}
 
 .sub-introduction {
 	font-size: 25px;
@@ -48,21 +44,25 @@ body {
 	width: 200px;
 }
 
-.about-me {
-	margin-top: 300px;
-}
-
 #projects {
 	background: #0E1319;
 }
 
+.img-adjuster {
+	margin:0 auto 150px auto;
+	max-width: 250px;
+	max-height: auto;
+	filter: grayscale(100%);
+}
+
+
 .profile-pic {
+	width: 100%;
 	position: absolute;
-	top:750px;
-	bottom: -120px;
+	top:-30vh;
   left: 0;
   right: 0;
-  margin: 50px auto;
+  margin: 0 auto 0 auto;
 	filter: grayscale(100%);
 	box-shadow: 8px 8px #888888;
 }
@@ -79,12 +79,12 @@ nav {
 
 
  .navbar-brand {
-	color: #F0A160 !important;
+	color: #ECDCC9 !important;
 	font-size: 25px;
 }
 
 .nav-link {
-	color: #F0A160 !important;
+	color: #FFFFFF !important;
 	font-size: 22px;
 }
 
@@ -104,14 +104,6 @@ nav {
 	width: 100px;
 	margin: 25px;
 	filter: grayscale(100%);
-}
-
-.bit {
-	background-color: #296cf3 !important;
-}
-
-.sample {
-	width: 100vw;
 }
 
  .btn {
@@ -136,3 +128,40 @@ nav {
 	font-weight: bolder;
 }
 
+
+@media screen and (max-height: 670px) {
+	.img-adjuster {
+		margin-top: 70px;
+		margin-bottom: 250px;
+	}
+} 
+
+@media screen and (max-width: 361px) {
+	.img-adjuster {
+		margin-top: 120px;
+		margin-bottom: 250px;
+	}
+} 
+
+
+@media screen and (max-width: 281px) {
+	.img-adjuster {
+		margin-top: 120px;
+		margin-bottom: 300px;
+	}
+} 
+
+
+
+@media screen and (min-width: 800px) and (max-width: 950px) and (min-height:1000px) {
+	.img-adjuster {
+		margin-top: 150px;
+	}
+} 
+
+@media screen and (min-width: 1000px) {
+	
+	.img-adjuster {
+		margin-top: -20px;
+	}
+} 
