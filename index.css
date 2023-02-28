@@ -6,15 +6,24 @@ body {
 	font-family: 'Quattrocento Sans', sans-serif;
 	color: #212529;
 	background-color: 	#e8e8e8;
-	background-image: url('images/background.jpg');
 	background-size: cover;
 }
 
 .landing-page {
-	background-color: #E4BF8B;
-	width: 100%;
-	height: 80vh;
+	height: 100%;
+	background: linear-gradient(90deg, #0E1319 50%, #D9D9DA 50%);  
+	height: 100vh;
 }
+
+.division-letter {
+	color: #e8e8e8;
+	font-weight: bold;
+}
+
+.division-letter2 {
+	color:  lightcoral;
+}
+
 .introduction, .heading {
 	color: 	black;
 	font-weight: 800;
@@ -28,16 +37,10 @@ body {
 
 .sub-introduction {
 	font-size: 25px;
-	font-weight: 800;
+	font-weight: bold;
 	font-size: 20px;
 }
 
-.lorem {
-	margin-top: 20vh;
-	font-size: 25px;
-	font-weight: 800;
-	font-size: 20px;
-}
 
 .logo {
 	margin-top: 10vh;
@@ -49,16 +52,18 @@ body {
 }
 
 #projects {
-	background: #93E9BE;
+	background: #0E1319;
 }
 
 .profile-pic {
 	position: absolute;
-	bottom: -40px;
+	top: 750px;
+	bottom: -120px;
   left: 0;
   right: 0;
-  margin:  50px auto;
-	
+  margin: 50px auto;
+	filter: grayscale(100%);
+	box-shadow: 8px 8px #888888;
 }
 
 
@@ -69,22 +74,35 @@ body {
 
 nav {
 	font-weight: 600;
-	background-color: #4D243D;
 }
 
 
-.nav-link, .navbar-brand {
-	color: #ECDCC9 !important;
+ .navbar-brand {
+	color: #F0A160 !important;
+	font-size: 25px;
 }
+
+.nav-link {
+	color: #F0A160 !important;
+	font-size: 22px;
+}
+
 
 .card {
 	max-width: 100%;
 	height: 100%;
+	background-color: #e8e8e8;
+	border-radius: 5px;
+}
+
+.card-img-top {
+	filter: grayscale(100%);
 }
 
 .skills-image img {
 	width: 100px;
-	margin: 48px;
+	margin: 25px;
+	filter: grayscale(100%);
 }
 
 .bit {
@@ -94,3 +112,26 @@ nav {
 .sample {
 	width: 100vw;
 }
+
+ .btn {
+	background: #0E1319;
+  border: solid 2px black;
+  padding: .375em 1.125em;
+  font-size: 1rem;
+	color: white;
+}
+
+.btn:hover {
+	background: white;
+	color:#0E1319
+}
+
+#projects h2 {
+	color: white;
+}
+
+.message {
+	color: #0E1319;
+	font-weight: bolder;
+}
+
